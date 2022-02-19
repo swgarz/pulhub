@@ -1,0 +1,35 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370.184 368.995">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4369ad;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #e9c133;
+      }
+
+      .cls-3 {
+        fill: #c9292a;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <title>cubo</title>
+  <g>
+    <polygon class="cls-1" points="0 222.824 269.764 161.621 356.516 336.909 107.549 368.995 0 222.824"/>
+    <polygon class="cls-2" points="269.764 161.621 356.516 336.909 370.184 149.144 305.415 0 269.764 161.621"/>
+    <polygon class="cls-3" points="0 222.824 269.764 161.621 305.415 0 71.302 48.723 0 222.824"/>
+  </g>
+  <polygon class="cls-4" points="287.568 80.906 166.957 106.35 129.156 193.522 269.764 161.621 287.568 80.906"/>
+  <polygon class="cls-4" points="129.156 193.522 183.206 272.225 312.638 248.251 269.764 161.621 129.156 193.522"/>
+  <polygon class="cls-4" points="287.568 80.906 329.665 157.648 312.638 248.251 269.764 161.621 287.568 80.906"/>
+</svg>
