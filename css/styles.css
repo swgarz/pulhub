@@ -4,7 +4,9 @@
 }
 body{
    
-    
+    background-image: url("/home/daniel/Escritorio/proyectos/pulhub/pulhub/images/pulhubbackground.png");
+    background-attachment: fixed;
+    background-position: center;
 }
   
 
@@ -27,6 +29,7 @@ body{
 .cubo img{
     width: 50%;
     margin: 0 auto;
+    margin-top: 10em;
 }
 .nosotros{
     display: flex;
@@ -86,9 +89,11 @@ body{
 .column-daniel span{
     color: #909090;
 }
-.img-erick:hover{
-    display: none;
-    background-image: url("/images/foto.jpg");
+.img-daniel{
+    margin-left: 2px;
+}
+.img-erick{
+    margin-right: 2px;
 }
 /*paquetes*/
 .paquetes{
@@ -125,17 +130,17 @@ body{
 }
 .rojo{
     background-color: #ED4B53;
-    border-radius: 12%;
+    /* border-radius: 12%; */
     padding: 1em;
 }
 .azul{
     background-color: #336CB4;
-    border-radius: 12%;
+    /* border-radius: 12%; */
     padding: 1em;
 }
 .amarillo{
     background-color: #F9D04A;
-    border-radius: 12%;
+    /* border-radius: 12%; */
     padding: 1em;
 }
 ul li{
@@ -143,6 +148,7 @@ ul li{
 }
 ul{
     text-align: center;
+    white-space: pre-line;
 }
 .clientes{
     display: flex;
@@ -195,6 +201,14 @@ ul{
     }
     .team{
         flex-wrap: wrap;
+    }
+    ul {
+        white-space: inherit;
+    }
+    .cubo img{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10em;
     }
   }
   @media (min-width: 992px){
