@@ -107,6 +107,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: end;
+    margin-bottom: 10em;
 }
 
 .rojo h3{
@@ -152,9 +153,28 @@ ul{
 }
 .clientes{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
 }
 .row-1{
     display: flex;
+}
+iframe {
+    border: 0;
+    width: 70%;
+    height: 220px;
+}
+.row{
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3em;
+}
+h3{
+    text-align: center;
+    
 }
 
 
@@ -210,11 +230,31 @@ ul{
         margin: 0 auto;
         margin-top: 10em;
     }
+    .row{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
   }
   @media (min-width: 992px){
 .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: center;
 }
+
+  }
+  @media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    }
   }
 /*fin de media queries*/
