@@ -172,6 +172,11 @@ iframe {
     flex-wrap: nowrap;
     margin-top: 3em;
 }
+.row img{
+    border: 0;
+    width: 70%;
+    height: 220px;
+}
 h3{
     text-align: center;
     
