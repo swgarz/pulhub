@@ -133,16 +133,30 @@ body{
     background-color: #ED4B53;
     /* border-radius: 12%; */
     padding: 1em;
+    
+}
+.rojo:hover{
+    box-shadow: 0 0 200px 20px rgba(255, 4, 4, 0.5);
+    background-color: #fc0814;
 }
 .azul{
     background-color: #336CB4;
     /* border-radius: 12%; */
     padding: 1em;
 }
+.azul:hover{
+    box-shadow: 0 0 200px 20px rgba(9, 80, 231, 0.5);
+    background-color: #0078f8;
+}
 .amarillo{
     background-color: #F9D04A;
     /* border-radius: 12%; */
     padding: 1em;
+}
+.amarillo:hover{
+    box-shadow: 0 0 200px 20px rgb(195, 206, 42);
+    background-color: #fffb00bd;
+    z-index: 2;
 }
 ul li{
     list-style: none;
